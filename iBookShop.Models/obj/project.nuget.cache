@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6vdccOECRds/0+nvu+FAakXOWpswDNnufdhmg/fv0R3eBiY2uTHl+x7qrYccEEqdsjNQMY9gbX+aO1SlLdioSg==",
+  "success": true,
+  "projectFilePath": "D:\\Web Development Projects\\iBookStore_CsharpNetCore_MVC_N-tier\\iBookShop.Models\\iBookShop.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\itsbu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\itsbu\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\itsbu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
