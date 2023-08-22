@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("iBookShop.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5719430135fb812aa0e57f1d91b6cab4a1c6a0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("iBookShop.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("iBookShop.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
