@@ -358,6 +358,19 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "iBookShop.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/iBookShop.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/iBookShop.Models.dll": {}
+        }
       }
     }
   },
@@ -807,11 +820,17 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "iBookShop.Models/1.0.0": {
+      "type": "project",
+      "path": "../iBookShop.Models/iBookShop.Models.csproj",
+      "msbuildProject": "../iBookShop.Models/iBookShop.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.0"
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.0",
+      "iBookShop.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -845,7 +864,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Web Development Projects\\iBookStore_CsharpNetCore_MVC_N-tier\\iBookShop.Models\\iBookShop.Models.csproj": {
+              "projectPath": "D:\\Web Development Projects\\iBookStore_CsharpNetCore_MVC_N-tier\\iBookShop.Models\\iBookShop.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
